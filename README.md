@@ -2,7 +2,7 @@
 
 ### Introduction
 Starting from a few weakly-supervised support images and a query image, we are able to localize the common object in the query image without the need for a single box annotation. We only know that there is a common object, we do not know where and what the common object is. For more details, please refer to our
-[paper,TBD]().
+[paper](http://isis-data.science.uva.nl/cgmsnoek/pub/hu-SILCO-iccv2019.pdf).
 
 <p align="center">
 <img src="cl.png" height="330px" />
