@@ -37,7 +37,7 @@ The code is based on [https://github.com/amdegroot/ssd.pytorch](https://github.c
 ln -s your_local_coco14_path coco14
 ln -s your_local_pascalvoc_path VOCdevkit
 ```
-- download dataset json file from [](), put them under the directory of "data/list"
+
 
 
 ### Training
