@@ -57,6 +57,9 @@ CUDA_VISIBLE_DEVICES=0 python silco.py  --dataset cl_voc07 --subset 0 --test
 Our pretrained weight can be found [https://drive.google.com/open?id=1zNIHchYkIo1hg64usgonAJtK9vAQcQr-](https://drive.google.com/open?id=1zNIHchYkIo1hg64usgonAJtK9vAQcQr-)
 
 
+### Dataset
+
+Check data/list directory.
 
 ### Citation
 
