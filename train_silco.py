@@ -128,7 +128,6 @@ def train():
                           momentum=args.momentum, weight_decay=args.weight_decay)
     criterion = MultiBoxLoss(num_classes, size=args.dim, overlap_thresh=0.5, prior_for_matching=True, bkg_label=0, neg_mining=True, neg_pos=3, neg_overlap=0.5, encode_target=False, use_gpu=True)
 
-    optimizer_summary(optimizer)
 
     few_shot_net.train()
     support_net.train()
