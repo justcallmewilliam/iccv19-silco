@@ -30,6 +30,7 @@ image_size = 300
 batch_size = 4
 
 
+
 parser = argparse.ArgumentParser(description='Single Shot MultiBox Detector Training')
 parser.add_argument('--dim', default=image_size, type=int, help='Size of the input image, only support 300 or 512')
 parser.add_argument('--basenet', default='vgg16_reducedfc.pth', help='pretrained base model')
